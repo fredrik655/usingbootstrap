@@ -1,0 +1,92 @@
+body {
+  font-family: Roboto;
+}
+
+#main-header {
+  background-color: #f72210;
+}
+
+.login-btn {
+  font-family: Roboto;
+}
+
+.subscribe-btn {
+  font-family: Roboto;
+  height: 2.2em;
+  border-radius: 24px;
+  font-size: .5em;
+  padding: 0 15px;
+  margin: 4px 14px 4px 10px;
+}
+
+.section-title {
+  color: rgba(3, 3, 3, .4);
+  font: bold 16px/16px Roboto;
+}
+
+section > img, .small-img {
+  width: 100%;
+}
+
+.summary-text {
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stories-title {
+  font-size: 17px;
+  line-height: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.stories-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.c-vs {
+  width: 32px;
+  height: 32px;
+  background-color: black;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px Roboto;
+  text-align: center;
+  z-index: 1;
+}
+
+.dec {
+  position: relative;
+  width: 100%;
+}
+
+.dec::before {
+  top: calc(50% - 2px);
+  content: "";
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.dec::after {
+  top: calc(50%);
+  content: "";
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.img-thumb {
+  width: 63px;
+  height: 63px; 
+}
+

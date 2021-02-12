@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>using Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="./src/css/app.css">
+
+</head>
+<body class="bg-light">
+  <div class="container-xxl">
+    <div class="row">
+      <header id="main-header">
+        <div class="d-flex justify-content-between">
+          <div class="col d-none d-lg-block">
+            <p class="text-white">-4° null, SE</p>
+            <p class="text-white">SUN, NOV 11, 1956</p>
+          </div>
+          <div class="col d-flex justify-content-lg-center align-items-center">
+            <h2 class="text-white fw-bolder fs-1">Newsweek</h2>
+            
+          </div>
+          <div class="col d-flex flex-row align-items-center justify-content-end">
+            <button type="button" class="btn  login-btn text-white fw-bolder d-none d-lg-block">LOGIN</button>
+            <button type="button" class="btn btn-warning subscribe-btn">SUBSCRIBE</button>
+          </div>
+        </div>
+      </header>
+    </div>
+      
+    <div class="row" >
+      <div class="col-lg container">
+        <div class="row">
+              <div class="col-md-5 order-2 order-md-1 card gx-0">
+                <div class="card-body p-2">
+                  <header class="card-header bg-white border-0 ps-0">
+                    <h6 class="card-title section-title">FEATURED STORIES</h6>
+                  </header>
+                  <section>
+                    <img src="./src/images/us-customs-border-protection.webp" alt="">
+                    <h4 class="fs-6 fw-bolder mt-2">January Border Arrests Reached Its Highest Mark For That Month In A Decade</h4>
+                    <p class="summary-text">Authorities made about 78,000 arrests last month, according to updated data released this week by the U.S. Customs and Border Protection (CBP). The agency averaged about 3,000 arrests per day in January and has encountered an increasing number o border crossing attempts since the start of 2021.</p>
+                  </section>
+                  <section>
+                    <img src="./src/images/kevin-mccarthy-news-conference.webp" alt="">
+                    <h4 class="fs-6 fw-bolder mt-2">As Stimulus Advances, GOP Denounces 'Partisan' Reconciliation Process</h4>
+                    <p class="summary-text">Democrats are moving forward with a COVID-19 relief bill they could pass without Republican support.</p>
+                  </section>
+                  <section>
+                    <img src="./src/images/joe-biden-speaks-state-department.webp" alt="">
+                    <h4 class="fs-6 fw-bolder mt-2">Joe Biden-Xi Jinping Call Shows Respect for China, State Media Says</h4>
+                    <p class="summary-text">Biden said he raised several contentious topics with his Chinese counterpart, including human rights abuses and the coronavirus pandemic.</p>
+                  </section>
+                  <section>
+                    <img src="./src/images/senator-josh-hawley.webp" alt="">
+                    <h4 class="fs-6 fw-bolder mt-2">Missouri's Biggest Paper Says Josh Hawley Brings 'Embarrassment' to State</h4>
+                    <p class="summary-text">A scathing op-ed in "The St Louis Post-Dispatch" damns Hawley and fellow Missouri Senator Roy Blunt for their support of ex-President Donald Trump.</p>
+                  </section>
+                  <section>
+                    <img src="./src/images/moderna-covid-19-vaccine.jpg" alt="">
+                    <h4 class="fs-6 fw-bolder mt-2">Mayor Garcetti Calls L.A. Vaccine Shortage 'Unacceptable'</h4>
+                    <p class="summary-text">Los Angeles is temporarily closing five COVID vaccination sites after running out of doses this week.</p>
+                  </section>
+                </div>
+              </div>
+              <div class="col order-1 order-md-2 card gx-0">
+                <div class="card-body p-2">
+                  <header class="card-header bg-white border-0 ps-0">
+                    <h6 class="card-title section-title ">TOP STORY</h6>
+                  </header>
+                  <section>
+                    <img src="./src/images/donald-trump-speaks-maryland-january20.webp" alt="">
+                    <h4 class="fs-6 fw-bolder mt-2">GOP Caught in a Bind Over Third Party Threat as Image Plummets</h4>
+                    <p class="summary-text">The GOP has seen its favorability drop among those who identify as Republicans, as the party faces the task of looking to make gains in the 2022 midterms after the Democrats' clean sweep in November.</p>
+                  </section>
+                  <header class="card-header bg-white border-0 ps-0 pb-0">
+                    <h6 class="card-title section-title ">MY TURN</h6>
+                  </header>
+                  <section class="container">
+                    <div class="row">
+                      <div class="col-md" >
+                        <img class="img-fluid small-img" src="./src/images/family-secrets-sisters-parents.jpg" alt="">
+                        <h6 class="card-title section-title mt-2 mb-4">At 23, I Discovered I Had a Secret Sister' </h6>
+                      </div>
+                      <div class="col-md" >
+                        <img  class="img-fluid small-img" src="./src/images/pandemic-coronavirus-school-sanitizer.jpg" alt="">
+                        <h6 class="card-title section-title mt-2 mb-4">'I'm in Fourth Grade, I Built a Robotic Sanitizer Dispenser'</h6>
+                      </div>
+                      <div class="col-md">
+                        <img class="img-fluid small-img" src="./src/images/adoption-blood-disorder-family-viral-letter-china.jpg" alt="">
+                        <h6 class="card-title section-title mt-2 mb-4">'My Daughter Found Her Siblings After 27 Million People Read My Viral Plea'</h6>
+                      </div>
+                    </div>
+                  </section>
+
+                  <header class="card-header bg-white border-0 ps-0 pb-0">
+                    <h6 class="card-title section-title ">Culture & Travel</h6>
+                  </header>
+                  <section class="container">
+                    <div class="row">
+                      <div class="col-md" >
+                        <img class="img-fluid small-img" src="./src/images/cul-map-cold-banner.webp" alt="">
+                        <h6 class="card-title section-title mt-2 mb-4">Winter's Wildest Adventures, From Walking on Drift Ice to Tracking Wolves</h6>
+                      </div>
+                      <div class="col-md" >
+                        <img  class="img-fluid small-img" src="./src/images/cul-map-african-american-dr-martin-luther-king-jr-memorial.webp" alt="">
+                        <h6 class="card-title section-title mt-2 mb-4">Where to Learn About African American History Across the U.S. </h6>
+                      </div>
+                      <div class="col-md">
+                        <img class="img-fluid small-img" src="./src/images/cul-map-steve-mccurry-banner.webp" alt="">
+                        <h6 class="card-title section-title mt-2 mb-4">Steve McCurry's Search for Elsewhere: 40 Years of Unseen Images</h6>
+                      </div>
+                    </div>
+                  </section>
+
+                  <header class="card-header bg-white border-0 ps-0 pb-0">
+                    <h6 class="card-title section-title ">MORE STORIES</h6>
+                  </header>
+                  <section class="d-flex flex-column mb-2">
+                    <div class="pt-2 border-top">
+                      <img class="float-start me-1" src="./src/images/ted-cruz-talks-reporters.webp" alt="">
+                      <h6 class="stories-title mb-1">Ted Cruz Predicts Trump Acquittal Despite GOP Praise for House Managers </h6>
+                      <p class="stories-text">The former president's defense team is to set out further arguments in his Senate impeachment trial on Friday.</p>
+                    </div>
+                  </section>
+                  <section class="d-flex flex-column mb-2">
+                    <div class="pt-2 border-top">
+                      <img class="float-start me-1" src="./src/images/bitcoin.jpg" alt="">
+                      <h6 class="stories-title mb-1">Jay-Z, Jack Dorsey Give Over $23m Worth of Bitcoin to Cryptocurrency Fund</h6>
+                      <p class="stories-text">The mission of the new crypto trust is to "make bitcoin the internet's currency." It will initially be focused on teams based in Africa and India, Dorsey said.</p>
+                    </div>
+                  </section>
+                  <section class="d-flex flex-column mb-2">
+                    <div class="pt-2 border-top">
+                      <img class="float-start me-1" src="./src/images/governor-mike-parson.webp" alt="">
+                      <h6 class="stories-title mb-1">Missouri Governor Warns of Vaccine Shortages as Biden Makes Doses Deal</h6>
+                      <p class="stories-text">The Republican Mike Parson has said demand for the coronavirus vaccine still far outweighs supply in his state.</p>
+                    </div>
+                  </section>
+                  <section class="d-flex flex-column mb-2">
+                    <div class="pt-2 border-top">
+                      <img class="float-start me-1" src="./src/images/kyle-rittenhouse.webp" alt="">
+                      <h6 class="stories-title mb-1">Kyle Rittenhouse Rearrest Denied by Judge After Hearing Prison Rape Threat</h6>
+                      <p class="stories-text">Kenosha County Circuit Judge Bruce Schroeder also said the 18-year-old's new address will not be made public.</p>
+                    </div>
+                  </section>
+                  <section class="d-flex flex-column mb-2">
+                    <div class="pt-2 border-top">
+                      <img class="float-start me-1" src="./src/images/rotunda-glass-doors-damaged-riots.webp" alt="">
+                      <h6 class="stories-title mb-1">Lawmakers Want to Preserve U.S. Capitol Glass Broken During Riot</h6>
+                      <p class="stories-text">Reps. Dean Phillips and Andy Kim say the glass symbolized "the fragility of our democracy," and should be put on display.</p>
+                    </div>
+                  </section>
+                  <section class="d-flex flex-column mb-2">
+                    <div class="pt-2 border-top">
+                      <img class="float-start me-1" src="./src/images/john-weaver-lincoln-project.webp" alt="">
+                      <h6 class="stories-title mb-1">Emails, Calls Suggests Lincoln Project Knew About John Weaver Allegations</h6>
+                      <p class="stories-text">Last month, Lincoln Project co-founder John Weaver was accused of sexually harassing nearly two dozen young men online for years.</p>
+                    </div>
+                  </section>
+                  <section class="d-flex flex-column mb-2">
+                    <div class="pt-2 border-top">
+                      <img class="float-start me-1" src="./src/images/lindsey-graham-questions-democrats-impeachment-narrative.webp" alt="">
+                      <h6 class="stories-title mb-1">Lindsey Graham Questions What Nancy Pelosi Knew Before Capitol Insurrection</h6>
+                      <p class="stories-text">Lindsey Graham said Democrats' impeachment claims that Donald Trump had incited the crowd before the Capitol Building insurrection had "fallen apart."</p>
+                    </div>
+                  </section>
+                  <section class="d-flex flex-column mb-2">
+                    <div class="pt-2 border-top">
+                      <img class="float-start me-1" src="./src/images/protesters-breaking-us-capitol.webp" alt="">
+                      <h6 class="stories-title mb-1">GOP Caught in a Bind Over Third Party Threat as Image Plummets</h6>
+                      <p class="stories-text">The GOP has seen its favorability drop among those who identify as Republicans, as the party faces the task of looking to make gains in the 2022 midterms after the Democrats' clean sweep in November.</p>
+                    </div>
+                  </section>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="col-lg-4 card gx-0">
+        <div class="card-body p-2">
+          <header class="card-header bg-white border-0 ps-0">
+            <h6 class="card-title section-title">THE DEBATE </h6>
+          </header>
+          <section class="d-flex flex-column">
+            <div class=" border-top border-4 pt-3">
+              <img class="float-start me-2" src="./src/images/pedro-l-gonzalez.png" alt="">
+              <h6 class="stories-title">The Conservative Case for a $15 Minimum Wage</h6>
+              <p class="stories-text"><span class="stories-text">BY</span> Pedro L. Gonzalez</p>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="dec d-flex justify-content-center align-items-center">
+                <div class="c-vs">VS</div>
+              </div>
+            </div>
+            <div class="mt-3 pb-1 border-bottom border-4">
+              <img class="float-end ms-2" src="./src/images/brad-pulombo.png" alt="">
+              <h6 class="stories-title">Democrats Are Wrong: A $15 Minimum Wage Will Hurt the Marginalized</h6>
+              <p class="stories-text" ><span class="stories-text">BY</span> Brad Polumbo</p>
+            </div>
+          </section>
+
+          <header class="card-header bg-white border-0 ps-0">
+            <h6 class="card-title section-title">OPINION</h6>
+          </header>
+          <div class="d-flex flex-column">
+            <section class="border-bottom border-1 mt-2">
+              <img class="float-start img-thumb me-2 mb-2" src="./src/images/lanaya-irvin.webp" alt="">
+              <h6 class="stories-title">Please Don't Ask Why There Are so Few Black CEOs</h6>
+              <p class="stories-text mb-2">By Lanaya Irvin</p>
+            </section>
+            <section class="border-bottom border-1 mt-2">
+              <img class="float-start img-thumb me-2 mb-2" src="./src/images/josh-hammer.webp" alt="">
+              <h6 class="stories-title">Overwrought Nazi Analogies for Me, but Not for Thee?</h6>
+              <p class="stories-text mb-2">By Josh Hammer</p>
+            </section>
+            <section class="border-bottom border-1 mt-2">
+              <img class="float-start img-thumb me-2 mb-2" src="./src/images/lev-golinkin.webp" alt="">
+              <h6 class="stories-title">Cancel Culture Has an Anti-Semitism Problem</h6>
+              <p class="stories-text mb-2">By Lev Golinkin</p>
+            </section>
+            <section class="border-bottom border-1 mt-2">
+              <img class="float-start img-thumb me-2 mb-2" src="./src/images/roff-new.webp" alt="">
+              <h6 class="stories-title">Saving Washington's Birthday</h6>
+              <p class="stories-text mb-2">By Peter Roff</p>
+            </section>
+            <section class="border-bottom border-1 mt-2">
+              <img class="float-start img-thumb me-2 mb-2" src="./src/images/saqib-qureshi.webp" alt="">
+              <h6 class="stories-title">Legacy of COVID Could be More Young Voters and Leaders</h6>
+              <p class="stories-text mb-2">By Saqib Qureshi</p>
+            </section>
+            <section class="border-bottom border-1 mt-2">
+              <img class="float-start img-thumb me-2 mb-2" src="./src/images/depetris-new.webp" alt="">
+              <h6 class="stories-title">Will Biden Make the Right Choice on Afghanistan?</h6>
+              <p class="stories-text mb-2">By Daniel R. DePetris</p>
+            </section>
+            <section class="border-bottom border-1 mt-2">
+              <img class="float-start img-thumb me-2 mb-2" src="./src/images/charlie-kirk.webp" alt="">
+              <h6 class="stories-title">Canceling Keystone Does More Environmental Harm than Good</h6>
+              <p class="stories-text mb-2">By Charlie Kirk</p>
+            </section>
+            <section class="border-bottom border-1 mt-2">
+              <img class="float-start img-thumb me-2 mb-2" src="./src/images/muhammad-shehada.webp" alt="">
+              <h6 class="stories-title">Israel Criminalizes Nonviolent Resistance, Then Calls Us Terrorists</h6>
+              <p class="stories-text mb-2">By Muhammad Shehada</p>
+            </section>
+            <section class="border-bottom border-1 mt-2">
+              <img class="float-start img-thumb me-2 mb-2" src="./src/images/froma-harrop.webp" alt="">
+              <h6 class="stories-title">The Minimum Wage Can Be Tricky</h6>
+              <p class="stories-text mb-2">By Froma Harrop</p>
+            </section>
+            <section class="mt-2">
+              <img class="float-start img-thumb me-2" src="./src/images/ben-weingarten.webp" alt="">
+              <h6 class="stories-title">Will Free Speech Be the First Casualty of Biden's War on Domestic Terror?</h6>
+              <p class="stories-text mb-2">By Ben Weingarten</p>
+            </section>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+      
+    </div>
+  </div>
+  
+
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
